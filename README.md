@@ -1,6 +1,5 @@
-<p style="text-align:center; font-size:30px; font-weight: bolder;">
-Hello World Figma 🌍
-<p>
+
+<h2 align="center">Hello World Figma 🌍</h2>
 
 ### Objetivo deste projeto 📝
 
@@ -10,12 +9,12 @@ Conhecer, estudar e familiarizar-se com a ferramenta de prototipagem [<strong>Fi
 Foi criada minha primeira prototipagem de design utilizando Figma. Com a prototipagem concluída reproduzi a mesma utilizando html e css.
 
 <div align="center">
-    <p style="font-weight:bold">Protótipo com Figma</p>
+    <h3 align="center">Protótipo com Figma</h3>
     <img src="screenshots/prototipoFigma.png" alt="Menina natureza" width="100%">
 </div>
 
 <div align="center">
-    <p style="font-weight:bold">Página Web</p>
+    <h3 align="center">Página Web</h3>
     <img src="screenshots/landingPage.png" alt="Menina natureza" width="100%">
 </div>
 
