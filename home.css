@@ -43,7 +43,20 @@
 .container-home .logo span strong{
     color: red;
     font-weight: bolder;
+    animation: show 4s normal;
+    display: inline-block;
 }
+
+@keyframes show{
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 
 /* Menu */
 .container-home .burguer{
