@@ -1,0 +1,24 @@
+nav{
+    position: fixed;
+    width: 40rem;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+    color: white;
+    background-color: rgba(0,0,0,.7);
+}
+
+nav h1{
+    font-size: 5rem;
+    width: max-content;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a img{
+    display: none;
+}
