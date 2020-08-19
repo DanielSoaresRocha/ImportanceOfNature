@@ -1,0 +1,102 @@
+:root{
+    font-size:60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-home{
+    width: 100%;
+    height: 100vh;
+}
+
+.container-home img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.container-home .logo{
+    width: max-content;
+    padding: 20px;
+    position: absolute;
+    right: 22%;
+    top: 20%;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-home .logo h1{
+    font-size: 4.6rem;
+}
+
+.container-home .logo span{
+    display: block;
+    margin-top: 40px;
+    font-size: 3.6rem;
+}
+
+.container-home .logo span strong{
+    color: red;
+    font-weight: bolder;
+}
+
+/* Menu */
+.container-home .burguer{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    cursor: pointer;
+}
+
+.container-home .burguer span{
+    border: 0.2rem solid white;
+    width:3rem;
+    position: relative;
+    background-color: blue;
+    width: 5rem;
+    display: block;
+    border-radius: 0.8rem;
+    margin-top: 0.7rem;
+}
+
+.container-home .burguer > span:nth-child(1){
+    width: 70%;
+}
+
+.container-home .burguer > span:nth-child(2){
+    width: 85%;
+}
+
+.container-home .burguer > span:nth-child(3){
+    width: 100%;
+}
+
+/* Redes sociais */
+.container-home .social-networks{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+
+.container-home .social-networks img{
+    width: 4rem;
+    height: 4rem;
+    position: unset;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.container-home .social-networks img:hover{
+    transform: rotateY(-45deg);
+}
