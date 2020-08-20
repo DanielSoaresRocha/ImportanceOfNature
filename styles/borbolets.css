@@ -12,21 +12,5 @@ ul{
 
 ul li img{
     width: 6rem;
-    height: 6rem;
-    /*animation: animate 20s linear;*/
-   
-}
-
-@keyframes animate{
-    0%{
-        transform: translateX(0px) translateY(0px);
-    }25%{
-        transform: translateX(-200px) translateY(100px);
-    }50%{
-        transform: translateX(-500px) translateY(-100px);
-    }75%{
-        transform: translateX(-900px) translateY(100px);
-    }100%{
-        transform: translateX(-1300px) translateY(-100px);
-    }
+    height: 6rem; 
 }

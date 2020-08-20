@@ -5,7 +5,8 @@ nav{
     z-index: 2;
     color: white;
     background-color: #a86d07;
-    background: linear-gradient(to right,#a86d07, #f79f07);
+    /*background: linear-gradient(to right,#a86d07, #f79f07);*/
+    background-color: rgba(0, 0, 0, 0.8);
     /*background: linear-gradient(to right, #3f3f22, #8d8c4a);*/
     display: flex;
     flex-direction: column;
