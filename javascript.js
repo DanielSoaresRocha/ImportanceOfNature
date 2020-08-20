@@ -19,4 +19,21 @@ function changeWords () {
     }, 4000)
 }
 
+function clickMenu () {
+    const burguer = document.getElementById('burguer')
+    const navBar = document.querySelector('nav')
+    const backdrop = document.querySelector('div.backdrop')
+
+    burguer.addEventListener('click', () => {
+        navBar.style.transform = 'translateX(0%)'
+        backdrop.style.display = 'block'
+    })
+
+    backdrop.addEventListener('click', () => {
+        backdrop.style.display = 'none'
+        navBar.style.transform = 'translateX(-100%)'
+    })
+}
+
 changeWords();
+clickMenu();
