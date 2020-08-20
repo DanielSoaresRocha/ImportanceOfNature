@@ -31,7 +31,7 @@ function clickMenu () {
 
     backdrop.addEventListener('click', () => {
         backdrop.style.display = 'none'
-        navBar.style.transform = 'translateX(-100%)'
+        navBar.style.transform = 'translateX(-105%)'
     })
 }
 

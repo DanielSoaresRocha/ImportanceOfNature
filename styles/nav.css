@@ -2,14 +2,16 @@ nav{
     position: fixed;
     width: 40rem;
     height: 100%;
-    background-color: black;
     z-index: 2;
     color: white;
-    background-color: rgba(0,0,0,.7);
+    background-color: #a86d07;
+    background: linear-gradient(to right,#a86d07, #f79f07);
+    /*background: linear-gradient(to right, #3f3f22, #8d8c4a);*/
     display: flex;
     flex-direction: column;
     transition: transform 1s;
-    transform: translateX(-100%);
+    transform: translateX(-105%);
+    box-shadow: 7px 0px 19px -2px rgba(0,0,0,1);
 }
 
 nav p{
