@@ -35,5 +35,27 @@ function clickMenu () {
     })
 }
 
+function animateBorbolet () {
+    const randon = (min, max) => Math.floor(Math.random() * (max - min) + min)
+
+    const borbolets = document.querySelectorAll('li img')
+
+    borbolets.forEach(element => {
+        element.animate([
+            // keyframes
+            { transform: `translateX(0px) translateY(0px)` },
+            { transform: `translateX(${randon(-400, -600)}px) translateY(${randon(50, 200)}px)` },
+            { transform: `translateX(${randon(-600, -900)}px) translateY(${randon(-50, 100)}px)` },
+            { transform: `translateX(${randon(-1100, -1300)}px) translateY(${randon(50, 200)}px)` },
+            { transform: `translateX(${randon(-1500, -1700)}px) translateY(${randon(-50, -200)}px)` }
+        ], {
+            // timing options
+            duration: randon(20000, 30000),
+            iterations: Infinity
+        });
+    })
+}
+
 changeWords();
 clickMenu();
+animateBorbolet();
