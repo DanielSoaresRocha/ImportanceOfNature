@@ -15,8 +15,10 @@ Foi criada minha primeira prototipagem de design utilizando Figma. Com a prototi
 
 <div align="center">
     <h3 align="center">Página Web</h3>
-    <img src="screenshots/landingPage.png" alt="Menina natureza" width="100%">
+
+![meninaNatureza](screenshots/gif.gif)
 </div>
+
 
 ## Tecnologias usadas 📚
 - Figma
